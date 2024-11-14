@@ -7,6 +7,7 @@ public class DeviceCaps extends TestBase {
 
     public static void Infinix_X6517() {
         caps = new DesiredCapabilities();
+        //Ignore the device nsme, na samsung A14 i use
         caps.setCapability("appium:platformName", "Android");
         caps.setCapability("appium:automationName", "UiAutomator2");
         caps.setCapability("appium:appPackage", "net.apptimist.applatchkidsandroid");
